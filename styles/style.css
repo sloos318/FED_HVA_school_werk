@@ -24,13 +24,10 @@
 	--color-background:#8e1212;
 }
 
-li {
-	list-style: none;
-}
+
 
 video {
-	width: 20%;
-	height: auto;
+  max-width:100%;
 }
 
 
@@ -40,57 +37,170 @@ video {
 /****************/
 
 /* jouw code */
+/* img {
+  width: 20%;
+} */
 
-
-main {
-  display:grid;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height:4em;
+  padding:0 1em;
+  background-color: lightgray;
+  line-height:1;
+  
+  
   display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
+  justify-content: space-between;
+  align-content: center;
+/*   position: absolute; */
  
 }
 
-section {
-  display: grid;
-  background-color: aliceblue;
-  
-
-}
-
-img {
-  width: 20%;
-}
-
-section:nth-child(3){
-  margin-bottom: 2em;
+header button span{
+  position: absolute;
+  z-index: 150;
+  width: 1.5em;
+  height: .15em;
+  background-color: black;
   
 }
 
-p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 1em;
+header button span:nth-of-type(1){
+  transform: translateY(-.5em);
 }
 
-h2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
+header button span:nth-of-type(2){
+  transform: translateY(.5em);
 }
 
-h2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
+header > a:first-of-type {
+  /* om het boek en de titel te positioneren */
+  display:grid;
+  grid-template-columns:min-content min-content;
+  align-items:center;
+  
+  font-weight:bold; 
 }
 
-h3 {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
+header a:first-of-type img{
+  width: auto;
+  height: 2em;
+  
 }
 
+
+header button {
+  padding:.5em;
+  
+  /* icon en tekst met gap-je naast elkaar */
+  display:flex;
+  align-items:center;
+  gap:.25em;
+  
+  /* standaard styling aanpassen */
+  appearance:none;
+  background-color:var(--button-background);
+  border:none;
+  border-radius:.25em; 
+  font:inherit;
+  text-align:center;
+  color:var(--button-color);
+}
+
+header button img {
+  height:2em;
+}
+
+header > button:nth-child(2){
+  order: -100 ;
+
+}
+
+nav button {
+  justify-self:start;
+ }
+
+ nav:first-of-type{
+  padding:1em;
+  z-index: 200;
+  display:grid;
+  align-content:start;
+  gap:1em;   
+  background-color: antiquewhite; 
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 1em;
+  translate: -120% 0;
+
+}
+
+nav:last-child{
+  padding:1em;
+  
+  display:grid;
+  align-content:start;
+  gap:1em;   
+  background-color: antiquewhite;  
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  translate: 1500% 0%;
+
+  display:none;
+
+}
+
+nav.open {
+  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  /* right: -1em; */
+  
+  translate: 0 0;
+  
+  transition: .3s;
+}
+
+nav ul { 
+  margin:0; 
+  padding:0em;
+  list-style:none;
+}
+
+nav a {
+  /* icon en tekst met gap-je naast elkaar */
+  display:flex;
+  align-items:center;
+  column-gap:.25em;
+  
+  border-bottom:solid 1px black;
+}
+
+nav a img {
+  display: flex;
+  justify-content: center;
+  width:auto;
+  height:2.5em;
+}
+
+nav a.active {
+  font-weight:bold;
+}
+
+header button img {
+  width: 2em;
+}
+
+ul {
+  list-style: none;
+}
 
 
 .visually-hidden {

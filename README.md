@@ -120,7 +120,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben een groot stuk op geschoten met de css en heb een groot aantal dingen laten werken. Mijn hamburgermenu werkt, de video op de achtergrond werkt en ik heb nu een goed idee hoe ik de rest van de layout aan moet pakken. Dit was wel lastig en ik had behoorlijk wat hulp hiervoor nodig maar het is nu wel gelukt en kan goed verder werken.
 
 
   ### Agenda voor meeting
@@ -132,6 +132,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+student 1: Sybren
+Ik wil graag bespreken hoe je een carasoul moet maken en hoe ik mijn video op groot scherm 100% kan krijgen.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

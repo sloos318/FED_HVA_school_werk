@@ -1,17 +1,22 @@
-var menuButton = document.querySelector("header > button:nth-child(2)");
+var openButtonMenu = document.querySelector("header > button:nth-of-type(1)");
+console.log("hi");
+console.log(openButtonMenu);
 
-var hamburgermenu = document.querySelector("nav:first-of-type");
+var closeButtonMenu = document.querySelector("nav button:first-of-type");
 
-menuButton.onclick = toggleMenu;
+var hamburgerMenu = document.querySelector("header nav:first-of-type");
 
-function toggleMenu () {
-    hamburgermenu.classList.toggle("open")
+openButtonMenu.onclick = openMenu;
+
+
+function openMenu () {
+    
+    hamburgerMenu.classList.add("open");
 }
 
-var sluitButtom = document.querySelector("nav button");
 
-sluitButtom,onclick = closeMenu
+closeButtonMenu.onclick = closeMenu;
 
 function closeMenu() {
-    hamburgermenu.classList.remove("open")
+    hamburgerMenu.classList.remove("open");
 }
