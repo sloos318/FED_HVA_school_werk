@@ -120,7 +120,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik ben een groot stuk op geschoten met de css en heb een groot aantal dingen laten werken. Mijn hamburgermenu werkt, de video op de achtergrond werkt en ik heb nu een goed idee hoe ik de rest van de layout aan moet pakken.
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
