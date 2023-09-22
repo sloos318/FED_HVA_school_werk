@@ -125,6 +125,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  
+  | Sybren     | David      | Jaden   | Vivanne      |
+  | ---            | ---                | ---          | ---              |
+  |vraag 1: Ik wil graag bespreken hoe je een carasoul moet maken  |De eerste vraag die ik heb heeft te maken met de sectie met de logo's die eindeloos voorbij scrollen. Ik heb problemen met de scroller die zichzelf reset na een korte tijd scrollen. Hoe kan ik ervoor zorgen dat hij eindeloos door loopt.          | Nav laten animeren  | vraag: Kan je makkelijk een gradient overlay boven een image plaatsen? |
+  | vraag 2: en hoe ik mijn video op groot scherm 100% kan krijgen. | Ten tweede liep ik tegen een probleem aan met het wijzigen van de volgorde waarin items worden weergegeven. Het attribuut order -1 werkte niet voor mij.| Mijn vraag is hoe verander ik de font aan in mijn image in css| dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
 
   |Sybren      | David        | Jaden  | Vivanne     |
   | ---            | ---                | ---          | ---              |
