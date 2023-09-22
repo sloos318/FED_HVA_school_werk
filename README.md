@@ -133,18 +133,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ...            | ...                | ...          | ...              |
 
 
-  |Sybren      | David        | Jaden  | Vivanne     |
-  | ---            | ---                | ---          | ---              |
-  | Ik wil graag bespreken hoe je een carasoul moet maken  |Ten tweede liep ik tegen een probleem aan met het wijzigen van de volgorde waarin items worden weergegeven. Het attribuut order 1 werkte niet voor mij.| Nav laten animeren   | Kan je makkelijk een gradient overlay boven een image plaatsen?  |
-  | en hoe ik mijn video op groot scherm 100% kan krijgen. |De eerste vraag die ik heb heeft te maken met de sectie met de logo's die eindeloos voorbij scrollen. Ik heb problemen met de scroller die zichzelf reset na een korte tijd scrollen. Hoe kan ik ervoor zorgen dat hij eindeloos door loopt. | Kan je makkelijk een gradient overlay boven een image plaatsen?   | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-student 1: Sybren
-Ik wil graag bespreken hoe je een carasoul moet maken en hoe ik mijn video op groot scherm 100% kan krijgen.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
+  
+  Wij willen als groep graag bespreken:
   - Knoppen bij een carasoul
   - We willen wat meer informatie over animeren op verschillende plekken op onze websites
   - Vivanne laat HTML zien
