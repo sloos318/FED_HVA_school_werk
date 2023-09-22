@@ -128,8 +128,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   |Sybren      | David        | Jaden  | Vivanne     |
   | ---            | ---                | ---          | ---              |
-  | Ik wil graag bespreken hoe je een carasoul moet maken  | De eerste vraag die ik heb heeft te maken met de sectie met de logo's die eindeloos voorbij scrollen. Ik heb problemen met de scroller die zichzelf reset na een korte tijd scrollen. Hoe kan ik ervoor zorgen dat hij eindeloos door loopt. | Ten tweede liep ik tegen een probleem aan met het wijzigen van de volgorde waarin items worden weergegeven. Het attribuut order 1 werkte niet voor mij.  | [09:34] Jaden Straal: Nav laten animeren  |
-  | en hoe ik mijn video op groot scherm 100% kan krijgen. |hello | vraag:Kan je makkelijk een gradient overlay boven een image plaatsen?   | dit wil ik zeker |
+  | Ik wil graag bespreken hoe je een carasoul moet maken  |[09:45] Jaden Straal
+ Mijn vraag is hoe verander ik de font aan in mijn image in css | Ten tweede liep ik tegen een probleem aan met het wijzigen van de volgorde waarin items worden weergegeven. Het attribuut order 1 werkte niet voor mij.  | [09:34] Jaden Straal: Nav laten animeren  |
+  | en hoe ik mijn video op groot scherm 100% kan krijgen. |De eerste vraag die ik heb heeft te maken met de sectie met de logo's die eindeloos voorbij scrollen. Ik heb problemen met de scroller die zichzelf reset na een korte tijd scrollen. Hoe kan ik ervoor zorgen dat hij eindeloos door loopt. | vraag:Kan je makkelijk een gradient overlay boven een image plaatsen?   | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 student 1: Sybren
@@ -139,7 +140,7 @@ Ik wil graag bespreken hoe je een carasoul moet maken en hoe ik mijn video op gr
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Knoppen bij een carasoul
-  - punt 2
+  - We willen wat meer informatie over animeren op verschillende plekken op onze websites
   - Vivanne laat HTML zien
 - ...
 
