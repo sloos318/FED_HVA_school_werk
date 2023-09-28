@@ -225,7 +225,47 @@ footer{
   text-align: center;
   gap: 1em;
   height: 80vh;
+  background-color: #1B2033;
   
+}
+
+footer ul:nth-of-type(1) {
+  display: flex;
+}
+
+footer h2 {
+  font-size: 1.8em;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+footer details {
+  color: white;
+}
+
+footer summary {
+  padding-top: 1em;
+  font-size: 1.5em;
+  color: white;
+}
+
+footer img {
+  width: 40%;
+}
+
+footer ul:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+footer ul:nth-of-type(2) li{
+  font-size: 1.2em;
+  border-right: white solid 1px;
+  /* border-left: white solid 1px; */
+  padding: .7em;
 }
 
 nav:nth-of-type(1) a img {
