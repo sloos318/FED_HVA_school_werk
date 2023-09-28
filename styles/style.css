@@ -22,6 +22,7 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#8e1212;
+  --color-nav-background: #ebeff4;
 }
 
 
@@ -135,7 +136,7 @@ nav button {
   display:grid;
   align-content:start;
   gap:1em;   
-  background-color: lightgray; 
+  background-color: var(--color-nav-background); 
   position: fixed;
   top: 0;
   bottom: 0;
@@ -183,14 +184,17 @@ nav ul {
   list-style:none;
 }
 
-nav a {
+nav ul a {
   /* icon en tekst met gap-je naast elkaar */
   display:flex;
   align-items:center;
   column-gap:.25em;
-  
+  font-size: 1.5em;
+  color: var(--color-text);
+  padding: .5em;
   
 }
+
 
 
 
@@ -307,14 +311,6 @@ nav:nth-of-type(1) a img {
   width:70%;
   height: auto;
 }
-
-nav:nth-of-type(1) summary {
-  color: black;
-  font-size: 2em;
-  padding: .5em;
-
-}
-
 
 .visually-hidden {
 	position: absolute;
