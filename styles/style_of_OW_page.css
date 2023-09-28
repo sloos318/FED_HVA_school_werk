@@ -1,6 +1,16 @@
 :root {
     --color_background: #ADD8E6;
     --color_button_background: #ff7800;
+    --color_button_text: #ffffff;
+    --color_text: #ffffff;
+    --color_text_secundary: #000000;
+    --color_text_third: #808080;
+    --color_background_secondary: #f0f8ff;
+    --color_background_third: #ffffff;
+    --color_background_fourth: #136BCF;
+    --color_background_textcloud: #1B2033;
+    --color_border: #ffffff;
+    --color_background_fifth: #6376B1;
 }
 
 
@@ -28,7 +38,7 @@ svg {
 }
 
 a {
-    color: white;
+    color: var(--color_button_text);
     text-decoration: none;
 }
 
@@ -138,7 +148,7 @@ section:nth-of-type(3) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: var(--color_background_secondary);
     margin-bottom: 1em;
 }
 
@@ -171,7 +181,8 @@ section:nth-of-type(3) a:nth-of-type(2){
     text-align: center;
     font-size: 1.5em;
     padding: .5em;
-    background-color: white;
+    color: var(--color_text_secundary);
+    background-color: var(--color_background_third);
     margin-bottom: 1em;
 }
 
@@ -245,19 +256,19 @@ section:nth-of-type(4) ul a h3 {
 
 section:nth-of-type(4) ul a h3, section:nth-of-type(4) ul a p {
     display: flex;
-    background-color: #1B2033;
+    background-color: var(--color_background_textcloud);
     width: 80vw;
     height: 4em;
 }
 
 section:nth-of-type(4) ul a p {
     font-size: 1.8em;
-    color: gray;
+    color: var(--color_text_third);
     height: 3em;
 }
 
 section:nth-of-type(5){
-    background-color: #136BCF;
+    background-color: var(--color_background_fourth);
     position: relative;
     display: grid;
     display: flex;
@@ -269,13 +280,13 @@ section:nth-of-type(5){
 
 section:nth-of-type(5) h2{
     margin-top: 1em;
-    color: white;
+    color: var(--color_text);
 }
 
 section:nth-of-type(5) p{
     text-align: center;
     margin-bottom: 1.5em; 
-    color: white;
+    color: var(--color_text);
     padding-left: 1.8em;
     padding-right: 1.8em;
 }
@@ -283,7 +294,7 @@ section:nth-of-type(5) p{
 section:nth-of-type(5) h3{
     text-align: center;
     margin-bottom: .8em;
-    color: white;
+    color: var(--color_text);
 }
 
 section:nth-of-type(5) img{
@@ -296,7 +307,7 @@ section:nth-of-type(5) img{
 
 section:nth-of-type(6){
     overflow: hidden;
-    background-color: #136BCF;
+    background-color: var(--color_background_fourth);
     padding-bottom: 2em;
     border-top: solid 1px white;
     overflow: hidden;
@@ -311,7 +322,7 @@ section:nth-of-type(6){
 section:nth-of-type(6) h2{
     font-size: 2em;
     margin-top: 1em;
-    color: white;
+    color: var(--color_text);
     text-align: center;
 }
 
@@ -320,7 +331,7 @@ section:nth-of-type(6) p{
     padding: .5em;
     padding-left: 1em;
     padding-right: 1em;
-    color: white;
+    color: var(--color_text);
     text-align: center;
 }
 
@@ -328,7 +339,7 @@ section:nth-of-type(6) p{
 section:nth-of-type(6) ul:first-of-type img{
     width: 8vw;
     padding: .6em;
-    border: solid 1px white;
+    border: solid 1px var(--color_border);
     border-radius: 100px;
 }
 
@@ -370,12 +381,12 @@ section:nth-of-type(6) > a{
     align-self: center;
     margin-top: 1em;
     padding: 1em;
-    background-color: white;
-    color: black;
+    background-color: var(--color_background_fourth);
+    color: var(--color_text_secundary);
 }
 
 section:nth-of-type(7){
-    background-color: #6376B1;
+    background-color: var(--color_background_fifth);
     overflow: hidden;
 
     padding-bottom: 2em;
@@ -390,13 +401,13 @@ section:nth-of-type(7) h2{
     display: flex;
     align-self: center;
     margin-top: 1em;
-    color: white;
+    color: var(--color_text);
     font-size: 2.5em;
 }
 
 section:nth-of-type(7) p{
     text-align: center;
-    color: white;
+    color: var(--color_text);
     padding: 1em;
     font-size: 1.2em;
 }
@@ -413,7 +424,7 @@ section:nth-of-type(7) ul:nth-of-type(1) li:nth-of-type(6){
 }
 
 section:nth-of-type(7) ul:nth-of-type(1) img{
-    border: solid 1px white;
+    border: solid 1px var(--color_border);
     border-radius: 100%;
     padding: .3em;
     width: 8vw;
@@ -436,7 +447,7 @@ section:nth-of-type(7) ul:nth-of-type(2) li{
 section:nth-of-type(7) ul:nth-of-type(2) h3 {
     padding-top: .5em;
     font-size: 2em;
-    color: white;
+    color: var(--color_text);
     text-align: center;
 }
 
@@ -505,7 +516,7 @@ section:nth-of-type(9) h2 {
     top: 4.5em;
     z-index: 50;
     font-size: 3em;
-    color: white;
+    color: var(--color_text);
 }
 
 section:nth-of-type(9) a {
@@ -513,7 +524,7 @@ section:nth-of-type(9) a {
     top: 10em;
     z-index: 50;
     font-size: 1.5em;
-    color: white;
+    color: var(--color_button_text);
     padding-left: 1.2em;
     padding-right: 1.2em;
     padding-bottom: .7em;
