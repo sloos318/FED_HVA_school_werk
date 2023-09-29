@@ -179,7 +179,7 @@ Ik wil graag bespreken hoe je een carasoul moet maken en hoe ik mijn video op gr
     | Sybren      | David       | Jaden  | vivanne       |
   | ---            | ---                | ---          | ---              |
   | Vraag 1 :Hoe laat ik met een knop specifieke dingen naar voren komen | 
-vraag 1: hoe en of ik ::after moet gebruiken           | Vraag: hoe laat ik mijn nav animeren?    | vraag 1 : hoe voeg ik een scrollbar toe aan een horizontale carousel?  |
+vraag 1: hoe en of ik after moet gebruiken           | Vraag: hoe laat ik mijn nav animeren?    | vraag 1 : hoe voeg ik een scrollbar toe aan een horizontale carousel?  |
   | vraag 2: Wat zijn de beste dingen om toe te passen als je frontend kiest | vraag 2: mijn font dikte is net een beetje anders, font weight werkt niet| Vraag2: hoe zorg ik ervoor dat de em losstaat van mn span| vraag 2 (als genoeg tijd over): hoe zorg ik voor bepaalde animatie bij meer weten section |
   | ...            | ...                | ...          | ...              |
 
