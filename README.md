@@ -183,6 +183,21 @@ vraag 1: hoe en of ik ::after moet gebruiken| Vraag: hoe laat ik mijn nav animer
   | vraag 2: Wat zijn de beste dingen om toe te passen als je frontend kiest | vraag 2: mijn font dikte is net een beetje anders, font weight werkt niet| Vraag2: hoe zorg ik ervoor dat de em losstaat van mn span| vraag 2 (als genoeg tijd over): hoe zorg ik voor bepaalde animatie bij meer weten section |
   | ...            | ...                | ...          | ...              |
 
+Sybren
+Vraag 1 :Hoe laat ik met een knop specifieke dingen naar voren komen
+vraag 2: Wat zijn de beste dingen om toe te passen als je frontend kiest
+
+David
+vraag 1: hoe en of ik ::after moet gebruiken
+vraag 2: mijn font dikte is net een beetje anders, font weight werkt niet
+
+Jaden
+Vraag: hoe laat ik mijn nav animeren?
+Vraag2: hoe zorg ik ervoor dat de em losstaat van mn span
+
+Vivanne
+vraag 1 : hoe voeg ik een scrollbar toe aan een horizontale carousel?
+vraag 2 (als genoeg tijd over): hoe zorg ik voor bepaalde animatie bij meer weten section.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
