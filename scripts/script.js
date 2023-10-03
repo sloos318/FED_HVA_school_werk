@@ -20,3 +20,24 @@ closeButtonMenu.onclick = closeMenu;
 function closeMenu() {
     hamburgerMenu.classList.remove("open");
 }
+
+var openButtonMenu2 = document.querySelector("header button:nth-of-type(2)");
+
+var closeButtonMenu2 = document.querySelector("nav:nth-of-type(2) button");
+
+var hamburgerMenu2 = document.querySelector("header nav:nth-of-type(2)");
+
+openButtonMenu2.onclick = openMenu2;
+
+
+function openMenu2 () {
+    
+    hamburgerMenu2.classList.add("opennummertwee");
+}
+
+
+closeButtonMenu2.onclick = closeMenu2;
+
+function closeMenu2() {
+    hamburgerMenu2.classList.remove("opennummertwee");
+}

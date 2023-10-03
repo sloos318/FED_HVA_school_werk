@@ -11,10 +11,6 @@
 }
 
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -98,7 +94,7 @@ header a:first-of-type img{
 
 
 header button {
-  padding:.5em;
+  padding:1em;
   
   /* icon en tekst met gap-je naast elkaar */
   display:flex;
@@ -149,21 +145,20 @@ nav button {
 
 
 nav:last-child{
+  position: relative;
+  display: flex;
   padding:1em;
-  
+  z-index: 200;
   display:grid;
   align-content:start;
   gap:1em;   
-  background-color: antiquewhite;  
+  background-color: var(--color-nav-background); 
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  translate: 1500% 0%;
-
-  display:none;
-
+  right: 1em;
+  translate: 150% 0;
 }
 
 nav.open {
@@ -177,6 +172,16 @@ nav.open {
   
   transition: .3s;
 }
+
+nav.opennummertwee {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 1em;
+  translate: 0 0;
+
+  transition: .3s;
+} 
 
 nav ul { 
   margin:0; 
@@ -223,6 +228,24 @@ nav:nth-of-type(1) a img {
 header button img {
   width: 2em;
 }
+
+/*******************************/
+   /* ___second navigation___ */
+/*******************************/
+
+nav:nth-of-type(2) button {
+  position: absolute;
+  right: 1em;
+ }
+
+ nav:nth-of-type(2) svg {
+  position: absolute;
+  right: 5em;
+}
+
+/*******************************/
+   /* ___second navigation___ */
+/*******************************/
 
 ul {
   list-style: none;

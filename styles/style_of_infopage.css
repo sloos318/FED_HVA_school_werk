@@ -111,6 +111,7 @@ li:not(.support),
 html:has([value="Damage"]:checked)
 li:not(.dps){
     display: none;
+    
 }
 
 main img:nth-child(1) {
@@ -146,16 +147,18 @@ section:nth-of-type(1){
 
 
  section ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    row-gap: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
+    
+    position: relative;
 }
 
 section li{
     background-color: var(--color_background_secondary);
     display: grid;
+    margin: .5em;
     row-gap: .5em;
     align-items: center;
     justify-content: center;
@@ -182,4 +185,12 @@ li h4 {
     grid-row-start: 3;
     text-align: center;
     color: var(--color_text_secundary);
+}
+
+main p {
+    text-align: center;
+    color: var(--color_text);
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
