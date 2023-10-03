@@ -197,7 +197,7 @@ nav ul a {
   column-gap:.25em;
   font-size: 1.5em;
   color: var(--color-text);
-  padding: .5em;
+  padding: .3em;
   
 }
 
@@ -257,11 +257,19 @@ nav:nth-of-type(2) ul{
 
 nav:nth-of-type(2) ul li a{
   padding: 0;
+  margin-left: .8em;
 }
 
 nav:nth-of-type(2) ul:nth-of-type(2){
   margin-top: 1em;
   background-color: var(--color_text_third);
+  position: absolute;
+  top: 18em;
+  bottom: 0;
+  right: 0;
+  left: 0em;
+  padding-left: 0em;
+  margin-left: .5em;
 }
 
 
