@@ -212,6 +212,14 @@ nav a svg {
   height: 2.5em;
 }
 
+nav:nth-of-type(1) a img {
+  position: relative;
+  left: 15%;
+  right: 15%;
+  width:70%;
+  height: auto;
+}
+
 header button img {
   width: 2em;
 }
@@ -221,6 +229,7 @@ ul {
 }
 
 footer{
+  margin-top: 3em;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -304,13 +313,49 @@ footer ul:nth-of-type(4) img{
   margin-bottom: 1em;
 }
 
-nav:nth-of-type(1) a img {
+footer section:nth-of-type(1) {
+  background-color: var(--color_background);
   position: relative;
-  left: 15%;
-  right: 15%;
-  width:70%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  height: 80vh;
+  
 }
+
+footer section:nth-of-type(1) img{
+  position: absolute;
+  object-fit: cover;
+  height: 80vh;
+  width: 100vw;
+}
+
+
+footer section:nth-of-type(1) h2 {
+  position: relative;
+  top: 1.4em;
+  z-index: 55;
+  font-size: 3em;
+  color: var(--color_text);
+}
+
+footer section:nth-of-type(1) a {
+  position: relative;
+  top: 2.6em;
+  z-index: 55;
+  font-size: 1.5em;
+  color: var(--color_button_text);
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  padding-bottom: .7em;
+  padding-top: .7em;
+  background-color: var(--color_button_background);
+}
+
+
 
 .visually-hidden {
 	position: absolute;
