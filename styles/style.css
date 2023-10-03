@@ -17,12 +17,22 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#8e1212;
   --color-nav-background: #ebeff4;
   --color_ul_background_2: #c2c2c2;
   --color_background_fourth: #136BCF;
   --color_button_background: #ff7800;
   --color_svg: #808080;
+  --color_background: #ADD8E6;
+  --color_button_text: #ffffff;
+  --color_text_fourth: #ffffff;
+  --color_text_secundary: #000000;
+  --color_text_third: #808080;
+  --color_background_secondary: #f0f8ff;
+  --color_background_third: #ffffff;
+  --color_background_textcloud: #1B2033;
+  --color_border: #ffffff;
+  --color_background_fifth: #6376B1;
+  --color_radio_button: #afc0f5;
 }
 
 
