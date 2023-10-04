@@ -22,7 +22,12 @@ main {
     gap: 1em;
 }
 
-label:nth-of-type(1) input[type="radio"]{
+/* ##### */
+/* label */
+/* ##### */
+
+/* Hieronder is de styling van alle radio buttons */
+main label:nth-of-type(1) input[type="radio"]{
     position: absolute;
     width: 1em;
     height: 1em;
@@ -32,7 +37,7 @@ label:nth-of-type(1) input[type="radio"]{
 }
 
 
-label:nth-of-type(2) input[type="radio"]{
+main label:nth-of-type(2) input[type="radio"]{
     position: absolute;
     width: 1em;
     height: 1em;
@@ -41,7 +46,7 @@ label:nth-of-type(2) input[type="radio"]{
     
 }
 
-label:nth-of-type(3) input[type="radio"]{
+main label:nth-of-type(3) input[type="radio"]{
     position: absolute;
     width: 1em;
     height: 1em;
@@ -50,7 +55,7 @@ label:nth-of-type(3) input[type="radio"]{
     
 }
 
-label:nth-of-type(4) input[type="radio"]{
+main label:nth-of-type(4) input[type="radio"]{
     position: absolute;
     width: 1em;
     height: 1em;
@@ -67,7 +72,7 @@ main section:nth-of-type(1){
     text-align: center;
 }
 
-label {
+main label {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,19 +85,20 @@ label {
     
 }
 
-label img{
+main label img{
     width: 1.5em;
     align-self: center;
 }
 
 
-label:nth-of-type(1) h3:nth-of-type(1){
+main label:nth-of-type(1) h3:nth-of-type(1){
     display: grid;
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-size: 1.3em;
 }
 
+/* hier zorg ik dat als een van de radio buttons gechecked is de anderen uit gaan */
 html:has([value="Tank"]:checked)
 li:not(.tank),
 html:has([value="Support"]:checked)
@@ -102,7 +108,13 @@ li:not(.dps){
     display: none;
     
 }
+/* ##### */
+/* label */
+/* ##### */
 
+/* ****************************************************** */
+/* hieronder doe ik de stijling van de rest van de pagina */
+/* ****************************************************** */
 main img:nth-child(1) {
     position: relative;
     object-fit: cover;
@@ -183,3 +195,6 @@ main p {
     margin-left: 1em;
     margin-right: 1em;
 }
+/* ****************************************************** */
+/* hieronder doe ik de stijling van de rest van de pagina */
+/* ****************************************************** */

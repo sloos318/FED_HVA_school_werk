@@ -6,10 +6,6 @@ html {
 }
 
 
-
-
-
-
 img {
     width: 5em;
 }
@@ -23,7 +19,7 @@ svg {
 
 }
 
-a {
+main a {
     color: var(--color_button_text);
     text-decoration: none;
 }
@@ -55,10 +51,10 @@ section:nth-of-type(1) video {
 
 section:nth-of-type(1) button {
     position: absolute;
-    left: 48%;
-    right: 48%;
-    width: 2em;
-    height: 2em;
+    left: 46%;
+    right: 46%;
+    width: 3em;
+    height: 3em;
     z-index: 50;
 }
 
@@ -101,19 +97,20 @@ section:nth-of-type(1) > a{
     z-index:50;
 }
 
-section:nth-of-type(1) a:is(:hover){
+a:is(:hover){
     background-color: var(--color_button_background);
     box-shadow: inset 0 0 .75em .75em; 
     
   }
 
-
-
-
 /* !!!!!!!!!!!!!! */
 /* section 1 */
 /* !!!!!!!!!!!!!! */
 
+
+/* !!!!!!!!!!!!!! */
+/* section 2 */
+/* !!!!!!!!!!!!!! */
 section:nth-of-type(2) {
     position: relative;
     display: flex;
@@ -146,6 +143,9 @@ section:nth-of-type(2) video {
     width: 80%;
     text-align: center;
 }
+/* !!!!!!!!!!!!!! */
+/* section 2 */
+/* !!!!!!!!!!!!!! */
 
 /* !!!!!!!!!!!!!!! */
 /* Section 3 */
@@ -206,7 +206,14 @@ section:nth-of-type(3) video {
     text-align: center;
     padding: 1em;
 }
+/* !!!!!!!!!!!!!!! */
+/* Section 3 */
+/* !!!!!!!!!!!!!!! */
 
+
+/* !!!!!!!!!!!!!!! */
+/* Section 4 */
+/* !!!!!!!!!!!!!!! */
 section:nth-of-type(4) { 
     overflow: hidden;
     position: relative;
@@ -261,7 +268,7 @@ section:nth-of-type(4) ul a {
 
 section:nth-of-type(4) ul a h3 {
     display: flex;
-    font-size: 2.5em;
+    font-size: 2.2em;
     justify-self: center;
     top: .5em;
     
@@ -281,7 +288,14 @@ section:nth-of-type(4) ul a p {
     color: var(--color_text_third);
     height: 3em;
 }
+/* !!!!!!!!!!!!!!! */
+/* Section 4 */
+/* !!!!!!!!!!!!!!! */
 
+
+/* !!!!!!!!!!!!!!! */
+/* Section 5 */
+/* !!!!!!!!!!!!!!! */
 section:nth-of-type(5){
     background-color: var(--color_background_fourth);
     position: relative;
@@ -330,9 +344,14 @@ section:nth-of-type(5) img{
     margin-right: auto;
     margin-bottom: 1em;
 }
+/* !!!!!!!!!!!!!!! */
+/* Section 5 */
+/* !!!!!!!!!!!!!!! */
 
 
-
+/* !!!!!!!!!!!!!!! */
+/* Section 6 */
+/* !!!!!!!!!!!!!!! */
 section:nth-of-type(6){
     overflow: hidden;
     background-color: var(--color_background_fourth);
@@ -421,7 +440,15 @@ section:nth-of-type(6) > a:last-of-type{
     font-size: 1.5em;
     width: 8em;
 }
+/* !!!!!!!!!!!!!!! */
+/* Section 6 */
+/* !!!!!!!!!!!!!!! */
 
+
+
+/* !!!!!!!!!!!!!!! */
+/* Section 7 */
+/* !!!!!!!!!!!!!!! */
 section:nth-of-type(7){
     background-color: var(--color_background_fifth);
     overflow: hidden;
@@ -493,8 +520,14 @@ section:nth-of-type(7) ul:nth-of-type(2) img {
     margin-left: 10%;
     margin-right: 10%;
 }
+/* !!!!!!!!!!!!!!! */
+/* Section 7 */
+/* !!!!!!!!!!!!!!! */
 
 
+/* !!!!!!!!!!!!!!! */
+/* Section 8 */
+/* !!!!!!!!!!!!!!! */
 section:nth-of-type(8) {
     background-color: var(--color_background_secondary);
     position: relative;
@@ -528,3 +561,6 @@ section:nth-of-type(8) p {
     padding-bottom: 1.5em;
     color: var(--color_text_secundary);
 }
+/* !!!!!!!!!!!!!!! */
+/* Section 8 */
+/* !!!!!!!!!!!!!!! */

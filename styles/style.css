@@ -34,7 +34,8 @@
   --color_background_fifth: #6376B1;
   --color_radio_button: #afc0f5;
 }
-/* 
+
+/* dit zijn alle dark mode kleuren */
 @media (prefers-color-scheme: dark) {
   :root{
     --color_background_secondary: #18171e;
@@ -43,15 +44,21 @@
     --color_background: #044b85;
     --color_background_fourth: #0851a5;
   }
-} */
+}
 
+/* hier zorg ik ervoor dat alle animaties uit staan voor mensen die dat willen */
 @media (prefers-reduced-motion: reduce) {
   main :nth-of-type(1) video {
     animation: unset;
-  }
-  
+  }  
 }
 
+/* hier zorg ik ervoor dat ik de letters groter kan maken als de big knop gechecked is die in de html staat. */
+html:has([value="big"]:checked) {
+  font-size: 1.1em;
+}
+
+/* dit zijn alle fonts die ik nodig heb */
 @font-face {
   font-family: Blizzard-normal-font;
   src: url(../fonts/blizzard-400-normal.woff);
@@ -68,6 +75,13 @@
   font-family: Blizzard-p-text-font;
   src: url(../fonts/p-text.woff);
 }
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+/* ********************************************************** */
+/* Hier zijn een aantal standaard settings voor bepaalde text */
+/* ********************************************************** */
 
 h2 {
   font-family: Blizzard-head2-font;
@@ -94,6 +108,9 @@ nav a {
 video {
   max-width:100%;
 }
+/* ********************************************************** */
+/* Hier zijn een aantal standaard settings voor bepaalde text */
+/* ********************************************************** */
 
 
 
@@ -108,6 +125,10 @@ video {
   width: 20%;
 } */
 
+/****************/
+/*    Header    */
+/****************/
+
 header {
   position: sticky;
   top: 0;
@@ -116,8 +137,6 @@ header {
   padding:0 1em;
   background-color: lightgray;
   line-height:1;
-  
-  
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -162,16 +181,11 @@ header a:first-of-type img{
   
 }
 
-
 header button {
   padding:1em;
-  
-  /* icon en tekst met gap-je naast elkaar */
   display:flex;
   align-items:center;
   gap:.25em;
-  
-  /* standaard styling aanpassen */
   appearance:none;
   background-color:var(--button-background);
   border:none;
@@ -189,7 +203,14 @@ header > button:nth-child(2){
   order: -100 ;
 
 }
+/****************/
+/*    Header    */
+/****************/
 
+
+/****************/
+/*   Navigatie  */
+/****************/
 nav button {
   justify-self:start;
  }
@@ -211,6 +232,7 @@ nav button {
   translate: -120% 0;
 
 }
+/* hier zorg ik dat de nav niet te zien is voordat er op het hamburger menu word geklikt */
 
 
 
@@ -230,6 +252,7 @@ nav:last-child{
   right: 1em;
   translate: 150% 0;
 }
+/* hier zorg ik dat de nav niet te zien is voordat er op het hamburger menu word geklikt */
 
 nav.open {
   
@@ -242,6 +265,7 @@ nav.open {
   
   transition: .3s;
 }
+/* hier zorg ik dat als mijn java geactiveerd word dat mijn nav op de goede positie komt */
 
 nav.opennummertwee {
   top: 0;
@@ -252,7 +276,10 @@ nav.opennummertwee {
 
   transition: .3s;
 } 
+/* hier zorg ik dat als mijn java geactiveerd word dat mijn nav op de goede positie komt */
 
+
+/* hierna doe ik de styling van de interne nav */
 nav ul { 
   margin:0; 
   padding:0em;
@@ -260,7 +287,6 @@ nav ul {
 }
 
 nav:nth-of-type(1) ul a {
-  /* icon en tekst met gap-je naast elkaar */
   display:flex;
   align-items:center;
   column-gap:.25em;
@@ -270,14 +296,10 @@ nav:nth-of-type(1) ul a {
   
 }
 
-
-
-
-
-
 nav a.active {
   font-weight:bold;
 }
+
 
 nav > a svg {
   display: flex;
@@ -295,6 +317,7 @@ nav:nth-of-type(1) a img {
   right: 15%;
   width:70%;
   height: auto;
+  background-color: var(--color-nav-background);
 }
 
 header button img {
@@ -305,7 +328,15 @@ nav button img {
   width: 1em;
   height: 1em;
 }
+/****************/
+/*   Navigatie  */
+/****************/
 
+
+/*******************************/
+   /* ___second navigation___ */
+/*******************************/
+/* hierna doe ik de styling van de interne nav */
 nav:nth-of-type(1) > a:last-child{
   background-color: var(--color_button_background);
   text-align: center;
@@ -315,9 +346,6 @@ nav:nth-of-type(1) > a:last-child{
   padding-bottom: .5em;
 }
 
-/*******************************/
-   /* ___second navigation___ */
-/*******************************/
 
 nav:nth-of-type(2) button {
   position: absolute;
@@ -400,6 +428,22 @@ nav:nth-of-type(2) ul:nth-of-type(2) li{
   margin-left: .8em;
 }
 
+nav:nth-of-type(2) ul:nth-of-type(2) li:last-of-type{
+  position: relative;
+  margin-top: 2em;
+  left: 3.7em;
+}
+
+nav label{
+  position: absolute;
+  font-size: 1.3em;
+  margin-top: .5em;
+}
+
+nav label:nth-of-type(2){
+  left: 4em;
+}
+
 /*******************************/
    /* ___second navigation___ */
 /*******************************/
@@ -408,6 +452,9 @@ ul {
   list-style: none;
 }
 
+/*******************************/
+   /* ________footer__________ */
+/*******************************/
 footer{
 
   position: relative;
@@ -535,9 +582,12 @@ footer section:nth-of-type(1) a {
   background-color: var(--color_button_background);
   text-decoration: none;
 }
+/*******************************/
+   /* ________footer__________ */
+/*******************************/
 
 
-
+/* hiermee zorg ik dat dingen die ik niet wil laten zien maar wel gelezen moeten kunnen worden door mensen die een screenreader gebruiken*/
 .visually-hidden {
 	position: absolute;
   position: absolute !important;
