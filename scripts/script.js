@@ -66,3 +66,4 @@ playButton.addEventListener("click", (e) => {
 })
 // hier zetten we een addeventlistener op de knop. Die blijft altijd luisteren of er gedrukt is. We geven dan aan met (e) dat er een event gebeurt op de click
 // daarna geven we met een if, else statement aan dat de video op de click aan of uit gezet moet worden en dat de text van de knop moet veranderen 
+// https://www.youtube.com/watch?v=YheuzX6zmpg

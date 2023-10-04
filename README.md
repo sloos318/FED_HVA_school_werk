@@ -155,7 +155,7 @@ Ik wil graag bespreken hoe je een carasoul moet maken en hoe ik mijn video op gr
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is): Toen we mijn website gingen checken op de checklist kwamen we er achter dat die behoorlijk goed geoptimized was en dat er maar een paar kleine dingen nog gedaan moesten worden om daar alles voor gedaan te hebben. Dit kwam voornamelijk neer op het stop kunnen zetten van de video. Dit kon namelijk toen nog niet en moest nog gefixt worden.
 
 </details>
 
@@ -169,7 +169,9 @@ Ik wil graag bespreken hoe je een carasoul moet maken en hoe ik mijn video op gr
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik ben behoorlijk ver met alle stijling van de website het enige wat ik nog moet doen is de fonts er in zetten en de alts van de images invullen. Hiernaast wil ik ook nog een dark mode er in zetten. 
+
+ Wat wel nog lastig is en ik nog niet een idee heb van hoe ik dit moet doen is hoe ik op mijn tweede pagina de knoppen werkende krijg en de uitkomsten kan sorteren en filteren. Maar dit zal ik even aan Sanne moeten vragen.
 
 
   ### Agenda voor meeting
@@ -222,13 +224,19 @@ vraag 2 (als genoeg tijd over): hoe zorg ik voor bepaalde animatie bij meer wete
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
+  Ik heb erg veel geleerd maar waar ik voornamelijk erg blij mee ben is dat ik mijn achtergrond video nu kan stoppen, dat ik heb geleerd met grid te werken en een filter heb kunnen maken. Dit zijn namelijk zulke handige tools voor prototypes en zal ik waarschijnlijk veel vaker nog gaan gebruiken.
+  <img src="./readme-images/knop_carasoul.jpg">
+  <img src="./readme-images/grid.jpg">
+  <img src="./readme-images/video_stop.jpg">
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+  wat ik erg lastig vond was soms om dingen perfect te positioneren zonder dat ik daar minder handige tacktieke voor gebruik zoals, right en left. Dit was voornamelijk zo bij de labels waar ik het bolletje heb geposisioneerd met die tools. Hierdoor gaat alles mis als we dingen vergroten
 
+  <img src="./readme-images/links_rechts.jpg">
+  <img src="./readme-images/knop_radio.jpg">
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -245,8 +253,12 @@ vraag 2 (als genoeg tijd over): hoe zorg ik voor bepaalde animatie bij meer wete
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://webaim.org/techniques/skipnav/ (hier kon ik bekijken hoe ik ook alweer een skiplink moest maken)
+  2. https://www.a11yproject.com/posts/how-to-hide-content/(hier kon ik vinden hoe ik dingen hidden kon maken zonder dat de screenreader niet meer kon lezen)
+  3. https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_hover (hier checkte ik hoe hover ook al weer werkte.)
+  4. https://codepen.io/shooft/pen/KKbweGB (hier kon ik kijken naar animaties van buttons die ik mischien toe kon voegen)
+  5. https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode (hier heb ik gelezen over werkende kleuren bij dark mode)
+  6. https://www.amp-what.com/unicode/search/pause (hier heb ik mijn stop knoop vandaan)
+  7. https://www.youtube.com/watch?v=YheuzX6zmpg (hier heb ik bekeken hoe ik een video stop kon zetten)
 
 </details>

@@ -96,6 +96,7 @@ section:nth-of-type(1) > a{
     transition: .3s;
     z-index:50;
 }
+/* https://codepen.io/shooft/pen/KKbweGB  animatie voor mijn knop */
 
 a:is(:hover){
     background-color: var(--color_button_background);
