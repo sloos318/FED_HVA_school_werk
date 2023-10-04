@@ -34,7 +34,7 @@
   --color_background_fifth: #6376B1;
   --color_radio_button: #afc0f5;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root{
     --color_background_secondary: #18171e;
@@ -43,9 +43,53 @@
     --color_background: #044b85;
     --color_background_fourth: #0851a5;
   }
+} */
+
+@media (prefers-reduced-motion: reduce) {
+  main :nth-of-type(1) video {
+    animation: unset;
+  }
+  
 }
 
+@font-face {
+  font-family: Blizzard-normal-font;
+  src: url(../fonts/blizzard-400-normal.woff);
+}
+@font-face {
+  font-family: Blizzard-head-font;
+  src: url(../fonts/blizzard-700-normal.woff);
+}
+@font-face {
+  font-family: Blizzard-head2-font;
+  src: url(../fonts/h2-text.woff2);
+}
+@font-face {
+  font-family: Blizzard-p-text-font;
+  src: url(../fonts/p-text.woff);
+}
 
+h2 {
+  font-family: Blizzard-head2-font;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: Blizzard-head-font;
+  text-transform: uppercase;
+}
+p {
+  font-family: Blizzard-normal-font;
+}
+main a, footer a {
+  font-family: Blizzard-head2-font;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a {
+  font-family: Blizzard-head2-font;
+  text-decoration: none;
+
+}
 
 video {
   max-width:100%;
@@ -218,7 +262,7 @@ nav:nth-of-type(1) ul a {
   display:flex;
   align-items:center;
   column-gap:.25em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: var(--color-text);
   padding: .5em;
   
@@ -263,7 +307,7 @@ nav button img {
 nav:nth-of-type(1) > a:last-child{
   background-color: var(--color_button_background);
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   border-radius: 10px;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -303,7 +347,7 @@ nav:nth-of-type(2) ul{
 nav:nth-of-type(2) ul li a{
   padding: 0;
   margin-left: .8em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: var(--color-text);
   align-items:center;
 }
@@ -389,7 +433,7 @@ footer A {
 }
 
 footer h2 {
-  font-size: 1.8em;
+  font-size: 1.3em;
   color: var(--color_background_secondary);
   padding-top: 1em;
   padding-bottom: .5em;
@@ -470,9 +514,9 @@ footer section:nth-of-type(1) img{
 
 footer section:nth-of-type(1) h2 {
   position: relative;
-  top: 1.4em;
+  top: 1.8em;
   z-index: 55;
-  font-size: 3em;
+  font-size: 2.5em;
   color: var(--color_button_text);
 }
 
@@ -480,13 +524,14 @@ footer section:nth-of-type(1) a {
   position: relative;
   top: 2.6em;
   z-index: 55;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: var(--color_button_text);
   padding-left: 1.2em;
   padding-right: 1.2em;
   padding-bottom: .7em;
   padding-top: .7em;
   background-color: var(--color_button_background);
+  text-decoration: none;
 }
 
 
