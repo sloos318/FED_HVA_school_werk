@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home page 
-  <img src="./images/Homepage_blizzard.png" width="375px" alt="omschrijving van de pagina">
+  <img src="./images/Homepage_blizzard.png" width="375px" alt="Dit is de home pagina van Overwatch, dit is een shooter game gemaakt door blizzard. Op deze pagina kun je wat informatie vinden over de game, de characters die je er in kan spelen en nieuwe updates in de game. Het is een interesante taak om deze pagina na te maken aangezien het een aantal secties heeft die nieuw zijn voor mij.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Info page
-  <img src="./images/infopageow.png" width="375px" alt="omschrijving van de pagina">
+  <img src="./readme-images/overwatch.blizzard.com_en-us_heroes_(iPhone SE).png" width="375px" alt="Dit is een overzichts pagina waar je alle heroes kan bekijken. Om deze pagina na te maken moet ik een filter maken wat een leuke uitdaging zal.">
  
 </details>
 
@@ -58,10 +58,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  Bij de toegankelijkheids testen kwamen er verwachte maar ook schokkende bevindingen naar voren. 
-  We waren al voorberijd dat de meeste websites helemaal niet toegankelijk zouden zijn maar de website die ik had gekozen (blizzard) was nog veel erger dan verwacht. Er waren vele manieren waardoor het onmogelijk werd voor een blind iemand die een screenreader moet gebruiken. Een groot voorbeeld hiervan was hoe de screenreader de hamburgermenu's of hele stukken van de website oversloeg. Als je een gebruiker van een screenreader was, werd het zo ongeveer onmogelijk om goed te navigeren op de website. Dit kwam voornamelijk door de absurde hoeveelheden van divs. Hierdoor kon de website een heel groot deel vvan de website niet lezen. Hiernaast was wat de screenreader wel kon lezen verschrikkelijk slecht beschreven. Een voorbeeld hiervan is hoe bij de meeste knoppen de alttext gewoon voor las wat er op de knop stond zonder dat er enige andere context bij werd gegeven. Ook moest je vaak voordat je bij de echte informatie kwam door een gigantische hoeveelheid knoppen heen werken. 
+Bij de toegankelijkheid testen kwamen er verwachte maar ook schokkende bevindingen naar voren.
+We waren al voorbereid dat de meeste websites helemaal niet toegankelijk zouden zijn, maar de website die ik had gekozen (blizzard) was nog veel erger dan verwacht. Er waren vele manieren waardoor het onmogelijk werd voor een blind iemand die een screenreader moet gebruiken. Een groot voorbeeld hiervan was hoe de screenreader de hamburger menu's of hele stukken van de website oversloeg. 
+Als je een gebruiker van een screenreader was, werd het zo ongeveer onmogelijk om goed te navigeren op de website. Dit kwam voornamelijk door de absurde hoeveelheden van divs. Hierdoor kon de website een heel groot deel van de website niet lezen. Hiernaast was wat de screenreader wel kon lezen verschrikkelijk slecht beschreven. Een voorbeeld hiervan is hoe bij de meeste knoppen de alt text gewoon voor las wat er op de knop stond zonder dat er enige andere context bij werd gegeven. Ook moest je vaak voordat je bij de echte informatie kwam door een gigantische hoeveelheid knoppen heen werken. Er was geen skip link om je in één keer naar de main content te brengen.
 
-  Zoals je ziet is er verschrikkelijk veel mis met de website op dit moment en kan er erg veel opgeruimd worden.
+Zoals je ziet is er verschrikkelijk veel mis met de website op dit moment en kan er erg veel opgeruimd worden.
+
 
 </details>
 
@@ -73,7 +75,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="./images/Web 1920 – 1.svg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./images/Web 1920 – 1.svg" width="375px" alt="
+  Om de website in zijn geheel goed te beschrijven zal ik het beschrijven in zijn secties
+  1. De nav:
+  ">
 
 </details>
 
