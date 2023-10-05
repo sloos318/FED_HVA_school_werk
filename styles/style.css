@@ -36,7 +36,7 @@
 }
 
 /* dit zijn alle dark mode kleuren */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root{
     --color_background_secondary: #18171e;
     --color_text_secundary: #888888;
@@ -44,7 +44,7 @@
     --color_background: #044b85;
     --color_background_fourth: #0851a5;
   }
-}
+} */
 
 /* hier zorg ik ervoor dat alle animaties uit staan voor mensen die dat willen */
 @media (prefers-reduced-motion: reduce) {
